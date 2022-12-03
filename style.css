@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+:root{
+    --primarycolor: rgba(224, 1, 1, 0.507);
+}
+.contenedor{
+
+    
+    text-align: center;
+}
+body{
+
+    background-image: linear-gradient(rgba(240, 60, 60, 0.75), rgba(8, 8, 8, 0.75)),
+    url("./img/semestre.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:1800;
+    background-attachment: fixed;
+    background-size: cover;
+       
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+p{
+    font-size: x-large;
+    padding: 5%;
+}
+
+button{
+    background-color: rgb(44, 136, 241);
+    font-size: xx-large;
+    padding: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: var(--primarycolor);
+    border: 1px solid var(--primarycolor);
+    margin: 5px;
+    box-shadow: 1px 1px 15px 8px var(--primarycolor);
+
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+    
+}
+
+#noBtn{
+    
+    position: absolute;
+}
